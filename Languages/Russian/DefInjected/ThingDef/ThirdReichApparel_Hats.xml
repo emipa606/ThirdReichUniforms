@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- M40 Infantry -->
+
+  <Apparel_3RM40Inf.label>Пилотка</Apparel_3RM40Inf.label>
+  <Apparel_3RM40Inf.description>Стандартный головной убор, выдается пехотинцам</Apparel_3RM40Inf.description>
+
+
+  <!-- M40 Waffen SS -->
+
+  <Apparel_3RM40SS.label>Пилотка Waffen SS</Apparel_3RM40SS.label>
+  <Apparel_3RM40SS.description>Стандартный головной убор, выдается пехотинцам Waffen SS</Apparel_3RM40SS.description>
+
+
+  <!-- M43 Infantry -->
+
+  <Apparel_3RM43Inf.label>Кепи</Apparel_3RM43Inf.label>
+  <Apparel_3RM43Inf.description>Дополнительный головной убор, выдается пехотинцам</Apparel_3RM43Inf.description>
+
+
+  <!-- M43 Waffen SS -->
+
+  <Apparel_3RM43SS.label>Кепи Waffen SS</Apparel_3RM43SS.label>
+  <Apparel_3RM43SS.description>Дополнительный головной убор, выдается пехотинцам Waffen SS</Apparel_3RM43SS.description>
+
+
+  <!-- M43 Waffen SS Peadot -->
+
+  <Apparel_3RM43SSPeadot.label>Камуфляжная кепи Waffen SS (Горох)</Apparel_3RM43SSPeadot.label>
+  <Apparel_3RM43SSPeadot.description>Камуфляжный головной убор, выдается пехотинцам Waffen SS</Apparel_3RM43SSPeadot.description>
+
+
+  <!-- Officercap Infantry -->
+
+  <Apparel_3ROfficerCapInf.label>Офицерская фуражка</Apparel_3ROfficerCapInf.label>
+  <Apparel_3ROfficerCapInf.description>Офицерский головной убор, символ авторитета для большинства подразделений</Apparel_3ROfficerCapInf.description>
+
+
+  <!-- Officercap WaffenSS -->
+
+  <Apparel_3ROfficerCapSS.label>Офицерская фуражка Waffen SS</Apparel_3ROfficerCapSS.label>
+  <Apparel_3ROfficerCapSS.description>Головной убор, принадлежит офицерам Waffen SS, обратите внимание на череп спереди</Apparel_3ROfficerCapSS.description>
+
+
+  <!-- FieldMarshalCap -->
+
+  <Apparel_3RFieldMarshalCap.label>Фуражка Фельдмаршала</Apparel_3RFieldMarshalCap.label>
+  <Apparel_3RFieldMarshalCap.description>Головной убор Фельдмаршала, Ахтунг!</Apparel_3RFieldMarshalCap.description>
+
+
+  <!-- StahlhelmM42 Infantry -->
+
+  <Apparel_3RStahlhelmM42Inf.label>Штальхельм</Apparel_3RStahlhelmM42Inf.label>
+  <Apparel_3RStahlhelmM42Inf.description>Шлем пехотинца Третьего рейха</Apparel_3RStahlhelmM42Inf.description>
+
+
+  <!-- StahlhelmM42 Infantry Straps -->
+
+  <Apparel_3RStahlhelmM42InfStraps.label>Укреплённый штальхельм</Apparel_3RStahlhelmM42InfStraps.label>
+  <Apparel_3RStahlhelmM42InfStraps.description>Шлем пехотинца Третьего рейха, укреплён ремнями</Apparel_3RStahlhelmM42InfStraps.description>
+
+
+  <!-- StahlhelmM42 Infantry Sniper -->
+
+  <Apparel_3RStahlhelmM42InfSniper.label>Снайперский штальхельм</Apparel_3RStahlhelmM42InfSniper.label>
+  <Apparel_3RStahlhelmM42InfSniper.description>Шлем с обвязанной травой, помогает скрыть видимость снайперов</Apparel_3RStahlhelmM42InfSniper.description>
+
+
+  <!-- StahlhelmM42 coverSplinter -->
+
+  <Apparel_3RStahlhelmM42coverSplinter.label>Камуфляжный штальхельм (Осколок)</Apparel_3RStahlhelmM42coverSplinter.label>
+  <Apparel_3RStahlhelmM42coverSplinter.description>Шлем с осколочной камуфляжной расцветкой, часто используется пехотой</Apparel_3RStahlhelmM42coverSplinter.description>
+
+
+  <!-- StahlhelmM42 WaffenSS -->
+
+  <Apparel_3RStahlhelmM42SS.label>Штальхельм Waffen SS</Apparel_3RStahlhelmM42SS.label>
+  <Apparel_3RStahlhelmM42SS.description>Шлем, принадлежит солдатам Waffen SS</Apparel_3RStahlhelmM42SS.description>
+
+
+  <!-- StahlhelmM42 WaffenSS coverSSPeaDot -->
+
+  <Apparel_3RStahlhelmM42SSPeaDot.label>Камуфляжный штальхельм Waffen SS (Горох)</Apparel_3RStahlhelmM42SSPeaDot.label>
+  <Apparel_3RStahlhelmM42SSPeaDot.description>Шлем Waffen SS с гороховой камуфляжной расцветкой, Зиг хайль!</Apparel_3RStahlhelmM42SSPeaDot.description>
+
+
+  <!-- StahlhelmM42 WaffenSS Sniper -->
+
+  <Apparel_3RStahlhelmM42SSSniper.label>Снайперский штальхельм Waffen SS</Apparel_3RStahlhelmM42SSSniper.label>
+  <Apparel_3RStahlhelmM42SSSniper.description>Шлем снайпера Waffen SS</Apparel_3RStahlhelmM42SSSniper.description>
+
+
+  <!-- StahlhelmM42 WaffenSS OakA -->
+
+  <Apparel_3RStahlhelmM42SSOakA.label>Камуфляжный штальхельм Waffen SS (Дубовый лист «А»)</Apparel_3RStahlhelmM42SSOakA.label>
+  <Apparel_3RStahlhelmM42SSOakA.description>Шлем Waffen SS с летней камуфляжной расцветкой дубового листа (Тип «А») </Apparel_3RStahlhelmM42SSOakA.description>
+
+
+  <!-- StahlhelmM42 WaffenSS OakB -->
+
+  <Apparel_3RStahlhelmM42SSOakB.label>Камуфляжный штальхельм Waffen SS (Дубовый лист «Б»)</Apparel_3RStahlhelmM42SSOakB.label>
+  <Apparel_3RStahlhelmM42SSOakB.description>Шлем Waffen SS с осенней камуфляжной расцветкой дубового листа (Тип «Б»)</Apparel_3RStahlhelmM42SSOakB.description>
+
+
+  <!-- StahlhelmM42 SS Honorguard -->
+
+  <Apparel_3RStahlhelmM42SSHonorguard.label>Штальхельм элитных войск SS</Apparel_3RStahlhelmM42SSHonorguard.label>
+  <Apparel_3RStahlhelmM42SSHonorguard.description>Поднять флаг! Плотно сомкнуть ряды! Маршируем со спокойно твердым шагом!</Apparel_3RStahlhelmM42SSHonorguard.description>
+
+
+  <!-- StahlhelmM42 Goggles -->
+
+  <Apparel_3RStahlhelmM42Gogg.label>Штальхельм с защитными очками</Apparel_3RStahlhelmM42Gogg.label>
+  <Apparel_3RStahlhelmM42Gogg.description>Шлем, принадлежит солдатам полевой жандармерии</Apparel_3RStahlhelmM42Gogg.description>
+
+
+  <!-- M38 Fallschirmjager -->
+
+  <Apparel_3RM38Fal.label>Десантный штальхельм</Apparel_3RM38Fal.label>
+  <Apparel_3RM38Fal.description>Шлем элитного десантника</Apparel_3RM38Fal.description>
+
+
+  <!-- M38 Fallschirmjager Camo -->
+
+  <Apparel_3RM38FalCam.label>Камуфляжный десантный штальхельм</Apparel_3RM38FalCam.label>
+  <Apparel_3RM38FalCam.description>Зеленый - это значит наш парашютист!</Apparel_3RM38FalCam.description>
+
+
+  <!-- M38 Fallschirmjager Winter -->
+
+  <Apparel_3RM38FalWinter.label>Камуфляжный десантный штальхельм (Зима)</Apparel_3RM38FalWinter.label>
+  <Apparel_3RM38FalWinter.description>Шлем элитного десантника, окрашенный в белый цвет, чтобы соответствовать снежным ландшафтам</Apparel_3RM38FalWinter.description>
+
+
+  <!-- StahlhelmM42 Winter -->
+
+  <Apparel_3RStahlhelmM42Winter.label>Камуфляжный штальхельм (Зима)</Apparel_3RStahlhelmM42Winter.label>
+  <Apparel_3RStahlhelmM42Winter.description>Этот шлем используется войсками SS, а также пехотой, для снежных ландшафтов</Apparel_3RStahlhelmM42Winter.description>
+
+
+</LanguageData>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Infantry -->
+
+  <Apparel_3RInfUniform.label>Военная униформа</Apparel_3RInfUniform.label>
+  <Apparel_3RInfUniform.description>Прекрасная военная униформа Третьего рейха.</Apparel_3RInfUniform.description>
+
+
+  <!-- Infantry Splittertarn -->
+
+  <Apparel_3RInfSplitUniform.label>Камуфляжная униформа (Осколок)</Apparel_3RInfSplitUniform.label>
+  <Apparel_3RInfSplitUniform.description>Хорошая и удобная камуфляжная толстовка с капюшоном, используется пехотой Третьего рейха.</Apparel_3RInfSplitUniform.description>
+
+
+  <!-- Infantry Officer -->
+
+  <Apparel_3RInfOfficerUniform.label>Офицерская униформа</Apparel_3RInfOfficerUniform.label>
+  <Apparel_3RInfOfficerUniform.description>Серое, элегантное обмундирование пехотного офицера Третьего рейха.</Apparel_3RInfOfficerUniform.description>
+
+
+  <!-- Waffen SS -->
+
+  <Apparel_3RSSUniform.label>Военная униформа Waffen SS</Apparel_3RSSUniform.label>
+  <Apparel_3RSSUniform.description>Безупречная униформа, принадлежит солдатам Waffen SS.</Apparel_3RSSUniform.description>
+
+
+  <!-- Waffen SS PeaDot -->
+
+  <Apparel_3RSSPeaDotUniform.label>Камуфляжная униформа Waffen SS (Горох)</Apparel_3RSSPeaDotUniform.label>
+  <Apparel_3RSSPeaDotUniform.description>Камуфляжная униформа Waffen SS, отлично подходит для укрытия.</Apparel_3RSSPeaDotUniform.description>
+
+
+  <!-- Waffen SS Officer -->
+
+  <Apparel_3RSSOfficerUniform.label>Офицерская униформа Waffen SS</Apparel_3RSSOfficerUniform.label>
+  <Apparel_3RSSOfficerUniform.description>Если вы когда-либо увидите это обмундирование на поле боя; молитесь, чтобы оно принадлежало вашей стороне.</Apparel_3RSSOfficerUniform.description>
+
+
+  <!-- Waffen SS Smock OakA -->
+
+  <Apparel_3RSSsmockOakA.label>Камуфляжная униформа Waffen SS (Дубовый лист «А»)</Apparel_3RSSsmockOakA.label>
+  <Apparel_3RSSsmockOakA.description>Хороший и уютный летний камуфляж, используется войсками SS.</Apparel_3RSSsmockOakA.description>
+
+
+  <!-- Waffen SS Smock OakB -->
+
+  <Apparel_3RSSsmockOakB.label>Камуфляжная униформа Waffen SS (Дубовый лист «Б»)</Apparel_3RSSsmockOakB.label>
+  <Apparel_3RSSsmockOakB.description>Хороший и уютный осенний камуфляж, используется войсками SS.</Apparel_3RSSsmockOakB.description>
+
+
+  <!-- Fallschirmjager -->
+
+  <Apparel_3RFalUniform.label>Десантная униформа</Apparel_3RFalUniform.label>
+  <Apparel_3RFalUniform.description>Военная униформа элитного десантника</Apparel_3RFalUniform.description>
+
+
+  <!-- FieldMarshal -->
+
+  <Apparel_3RFieldMarshal.label>Униформа Фельдмаршала</Apparel_3RFieldMarshal.label>
+  <Apparel_3RFieldMarshal.description>Униформа Фельдмаршала, символ истинной власти.</Apparel_3RFieldMarshal.description>
+
+
+  <!-- SS Honorguard -->
+
+  <Apparel_3RSSHonorguard.label>Униформа элитных войск SS</Apparel_3RSSHonorguard.label>
+  <Apparel_3RSSHonorguard.description>Униформа элитных войск SS, элитная пехота фюрера. Они эффективны и имеют крепкий моральный дух.</Apparel_3RSSHonorguard.description>
+
+
+  <!-- Winter Coat -->
+
+  <Apparel_3RNaziCoat.label>Зимнее пальто</Apparel_3RNaziCoat.label>
+  <Apparel_3RNaziCoat.description>Хорошее и уютное зимнее пальто, используется вооруженными силами рейха.</Apparel_3RNaziCoat.description>
+
+
+  <!-- Trench Coat -->
+
+  <Apparel_3RNaziTrenchCoat.label>Плащ</Apparel_3RNaziTrenchCoat.label>
+  <Apparel_3RNaziTrenchCoat.description>Стильный, широкий плащ, используется вооруженными силами рейха.</Apparel_3RNaziTrenchCoat.description>
+
+
+  <!-- Zeltbahn -->
+
+  <Apparel_3RZelt.label>Цельтбан</Apparel_3RZelt.label>
+  <Apparel_3RZelt.description>Камуфляжное пончо, обычно используется пехотинцами.</Apparel_3RZelt.description>
+
+
+  <!-- Harness Assault -->
+
+  <Apparel_3RHarnessA.label>Штурмовой разгрузочный жилет</Apparel_3RHarnessA.label>
+  <Apparel_3RHarnessA.description>Разгрузочный жилет для переноски автоматных боеприпасов, обычно используется штурмовыми подразделениями.</Apparel_3RHarnessA.description>
+
+
+  <!-- Harness Riffleman -->
+
+  <Apparel_3RHarnessRif.label>Разгрузочный жилет стрелка</Apparel_3RHarnessRif.label>
+  <Apparel_3RHarnessRif.description>Разгрузочный жилет для переноски винтовочных боеприпасов, используется в основном снайперами и стрелками.</Apparel_3RHarnessRif.description>
+
+
+  <!-- Officer Belt -->
+
+  <Apparel_3ROfficerbelt.label>Офицерский пояс</Apparel_3ROfficerbelt.label>
+  <Apparel_3ROfficerbelt.description>Ремень с пистолетной кобурой, используется офицерами всех военных отделений Третьего рейха.</Apparel_3ROfficerbelt.description>
+
+
+  <!-- Feldgendararmerie Gorget -->
+
+  <Apparel_3RFeldgendararmerieGorget.label> Снаряжение полевой жандармерии</Apparel_3RFeldgendararmerieGorget.label>
+  <Apparel_3RFeldgendararmerieGorget.description>Ремень с пистолетной кобурой и горжет, принадлежит войскам полевой жандармерии и военной полиции Рейха, многие отделения полиции их носят.</Apparel_3RFeldgendararmerieGorget.description>
+
+
+  <!-- Fallschirmjager Harness -->
+
+  <Apparel_3RHarnessFal.label>Десантный разгрузочный жилет</Apparel_3RHarnessFal.label>
+  <Apparel_3RHarnessFal.description>Разгрузочный жилет, используется десантными войсками для хранения боеприпасов и быстрого реагирования.</Apparel_3RHarnessFal.description>
+
+
+</LanguageData>

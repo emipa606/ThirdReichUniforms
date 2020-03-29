@@ -1,0 +1,1269 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    	<!-- ==================================== M40 Infantry =====================================-->
+  
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_3RM40Inf</defName>
+    <label>M40 Infantry (3R)</label>
+    <description>Standard issued Cap given to Infantrymen</description>
+	
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/M40Fieldcap_Infantry</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>0.14</Mass>
+      <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+      <Insulation_Heat>9</Insulation_Heat>
+	  <Insulation_Cold>4</Insulation_Cold>
+    </statBases>
+	
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+	
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/M40Fieldcap_Infantry</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+       <li>3RInfantry_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+
+	 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>	
+  </ThingDef>
+     	
+		<!-- ==================================== M40 Waffen SS =====================================-->
+  
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_3RM40SS</defName>
+    <label>M40 Waffen SS (3R)</label>
+    <description>Standard issued Cap given to men of the Waffen SS</description>
+	
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/M40Fieldcap_WaffenSS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>0.14</Mass>
+      <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+      <Insulation_Heat>9</Insulation_Heat>
+	  <Insulation_Cold>4</Insulation_Cold>
+    </statBases>
+	
+    <equippedStatOffsets>
+    <MentalBreakThreshold>-0.01</MentalBreakThreshold>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+	
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/M40Fieldcap_WaffenSS</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+       <li>3RWaffenSS_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+
+	 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+  </ThingDef>
+  
+     	<!-- ==================================== M43 Infantry =====================================-->
+  
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_3RM43Inf</defName>
+    <label>M43 Infantry (3R)</label>
+    <description>Issued Cap given to Infantrymen</description>
+	
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/M43Fieldcap_Infantry</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costStuffCount>29</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>0.14</Mass>
+      <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+      <Insulation_Heat>9</Insulation_Heat>
+	  <Insulation_Cold>5</Insulation_Cold>
+    </statBases>
+	
+    <equippedStatOffsets>
+      <SocialImpact>0.18</SocialImpact>
+    </equippedStatOffsets>
+	
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/M43Fieldcap_Infantry</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+       <li>3RInfantry_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+
+	 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+  </ThingDef>
+  
+  		<!-- ==================================== M43 Waffen SS =====================================-->
+  
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_3RM43SS</defName>
+    <label>M43 Waffen SS (3R)</label>
+    <description>Issued Cap given to men of the Waffen SS</description>
+	
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/M43Fieldcap_WaffenSS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>0.14</Mass>
+      <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+      <Insulation_Heat>9</Insulation_Heat>
+	  <Insulation_Cold>5</Insulation_Cold>
+    </statBases>
+	
+    <equippedStatOffsets>
+    <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+      <SocialImpact>0.18</SocialImpact>
+    </equippedStatOffsets>
+	
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/M43Fieldcap_WaffenSS</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+       <li>3RWaffenSS_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+
+	 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+  </ThingDef>
+ 
+ <!-- ==================================== M43 Waffen SS Peadot =====================================-->
+  
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_3RM43SSPeadot</defName>
+    <label>M43 Waffen SS Peadot (3R)</label>
+    <description>A Camoflauged Cap given to men of the Waffen SS</description>
+	
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/M43Fieldcap_WaffenSSPeaDot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>0.14</Mass>
+      <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+      <Insulation_Heat>9</Insulation_Heat>
+	  <Insulation_Cold>5</Insulation_Cold>
+    </statBases>
+	
+    <equippedStatOffsets>
+    <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+      <SocialImpact>0.18</SocialImpact>
+    </equippedStatOffsets>
+	
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/M43Fieldcap_WaffenSSPeaDot</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+       <li>3RWaffenSS_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+
+	 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+  </ThingDef>
+  
+      	<!-- ==================================== Officercap Infantry =====================================-->
+
+  
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_3ROfficerCapInf</defName>
+    <label>OfficerCap Infantry (3R)</label>
+    <description>An Infantry officers cap, a symbol of authority to most units</description>
+	
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/OfficerCap_Infantry</texPath>
+       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>0.14</Mass>
+      <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+      <Insulation_Heat>9</Insulation_Heat>
+	  <Insulation_Cold>4</Insulation_Cold>
+    </statBases>
+	
+    <equippedStatOffsets>
+      <SocialImpact>0.25</SocialImpact>
+	  <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+    </equippedStatOffsets>
+	
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/OfficerCap_Infantry</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+        <li>3RInfantryOfficer_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+		 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+	  </ThingDef>
+	  
+	      	<!-- ==================================== Officercap WaffenSS =====================================-->
+
+  
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_3ROfficerCapSS</defName>
+    <label>OfficerCap Waffen SS (3R)</label>
+    <description>A Cap belonging to an Officer of the Waffen SS, note the skull on the front</description>
+	
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/OfficerCap_WaffenSS</texPath>
+       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>0.14</Mass>
+      <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+      <Insulation_Heat>9</Insulation_Heat>
+	  <Insulation_Cold>4</Insulation_Cold>
+    </statBases>
+	
+    <equippedStatOffsets>
+      <SocialImpact>0.30</SocialImpact>
+	  <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+    </equippedStatOffsets>
+	
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/OfficerCap_WaffenSS</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+        <li>3RWaffenSSOfficer_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+		 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+	  </ThingDef>
+	  
+	      	<!-- ==================================== FieldMarshalCap =====================================-->
+
+  
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_3RFieldMarshalCap</defName>
+    <label>FieldMarshal Cap (3R)</label>
+    <description>The Cap of a Field Marshal, Achtung!</description>
+	
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/FieldMarshalCap</texPath>
+       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costStuffCount>35</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>0.14</Mass>
+      <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+      <Insulation_Heat>9</Insulation_Heat>
+	  <Insulation_Cold>5</Insulation_Cold>
+    </statBases>
+	
+    <equippedStatOffsets>
+      <SocialImpact>0.50</SocialImpact>
+	  <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+    </equippedStatOffsets>
+	
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/FieldMarshalCap</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+        <li>3RFieldMarshal_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+		 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+	  </ThingDef>
+	  
+        	<!-- ==================================== StahlhelmM42 Infantry =====================================-->
+  
+      <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_3RStahlhelmM42Inf</defName>
+    <label>StahlhelmM42 Infantry (3R)</label>
+    <description>The Helmet of a Reich Infantry man</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/StahlhelmM42_Infantry</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+		<Insulation_Heat>5</Insulation_Heat>
+		<Insulation_Cold>5</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+			<PsychicSensitivity>-0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/StahlhelmM42_Infantry</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+        <li>3RInfantry_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+		 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+  </ThingDef>
+  
+         	<!-- ==================================== StahlhelmM42 Infantry Straps =====================================-->
+  
+      <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_3RStahlhelmM42InfStraps</defName>
+    <label>StahlhelmM42 Infantry Straps (3R)</label>
+    <description>The Helmet of a Reich Infantry man, personalized with straps</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/StahlhelmM42_Straps</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+		<Insulation_Heat>6</Insulation_Heat>
+		<Insulation_Cold>4</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+			<PsychicSensitivity>-0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/StahlhelmM42_Straps</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+        <li>3RInfantry_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+		 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+  </ThingDef>
+  
+           	<!-- ==================================== StahlhelmM42 Infantry Sniper =====================================-->
+  
+      <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_3RStahlhelmM42InfSniper</defName>
+    <label>StahlhelmM42 Infantry Sniper (3R)</label>
+    <description>The Stahlhelm M42 with a strap holding Grass, helping conceal Infantry snipers</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/StahlhelmM42_Sniper</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+		<costStuffCount>51</costStuffCount>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+		<Insulation_Heat>5</Insulation_Heat>
+		<Insulation_Cold>5</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+			<PsychicSensitivity>-0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/StahlhelmM42_Sniper</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+        <li>3RInfantry_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+		 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+  </ThingDef>
+  
+          	<!-- ==================================== StahlhelmM42 coverSplinter =====================================-->
+  
+      <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_3RStahlhelmM42coverSplinter</defName>
+    <label>StahlhelmM42 Splinter Cover (3R)</label>
+    <description>The Stahlhelm M42 with a Splinter camoflauge cover, often used by Infantry</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/StahlhelmM42_coverSplinter</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+		<costStuffCount>51</costStuffCount>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+		<Insulation_Heat>5</Insulation_Heat>
+		<Insulation_Cold>7</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+			<PsychicSensitivity>-0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/StahlhelmM42_coverSplinter</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+        <li>3RInfantry_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+		 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+  </ThingDef>
+
+          	<!-- ==================================== StahlhelmM42 WaffenSS =====================================-->
+  
+      <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_3RStahlhelmM42SS</defName>
+    <label>StahlhelmM42 WaffenSS (3R)</label>
+    <description>The Helmet belonging to a trooper of the WaffenSS</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/StahlhelmM42_SS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+		<Insulation_Heat>5</Insulation_Heat>
+		<Insulation_Cold>5</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+			<MentalBreakThreshold>-0.03</MentalBreakThreshold>
+			<PsychicSensitivity>-0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/StahlhelmM42_SS</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+        <li>3RWaffenSS_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+		 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+  </ThingDef>
+	
+	          	<!-- ==================================== StahlhelmM42 WaffenSS coverSSPeaDot =====================================-->
+  
+      <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_3RStahlhelmM42SSPeaDot</defName>
+    <label>StahlhelmM42 WaffenSS Peadot (3R)</label>
+    <description>A Waffen SS helmet with a SS Peadot Camoflauge, Sieg heil</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/StahlhelmM42_coverSSPeaDot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+		<costStuffCount>51</costStuffCount>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>		
+		<Insulation_Heat>5</Insulation_Heat>
+		<Insulation_Cold>7</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+			<MentalBreakThreshold>-0.03</MentalBreakThreshold>
+			<PsychicSensitivity>-0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/StahlhelmM42_coverSSPeaDot</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+        <li>3RWaffenSS_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+		 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+  </ThingDef>
+  
+  	          	<!-- ==================================== StahlhelmM42 WaffenSS Sniper =====================================-->
+  
+      <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_3RStahlhelmM42SSSniper</defName>
+    <label>StahlhelmM42 WaffenSS Sniper (3R)</label>
+    <description>The Helmet of a Waffen SS Sniper</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/StahlhelmM42_SniperSS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+		<costStuffCount>51</costStuffCount>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+					<Insulation_Heat>5</Insulation_Heat>
+		<Insulation_Cold>7</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+			<MentalBreakThreshold>-0.03</MentalBreakThreshold>
+			<PsychicSensitivity>-0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/StahlhelmM42_SniperSS</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+        <li>3RWaffenSS_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+		 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+  </ThingDef>
+  
+  	          	<!-- ==================================== StahlhelmM42 WaffenSS OakA =====================================-->
+  
+      <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_3RStahlhelmM42SSOakA</defName>
+    <label>StahlhelmM42 WaffenSS OakA (3R)</label>
+    <description>A Waffen SS helmet with a SS Oak A cover</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/StahlhelmM42_coverSSOakA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+		<costStuffCount>51</costStuffCount>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+					<Insulation_Heat>5</Insulation_Heat>
+		<Insulation_Cold>7</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+			<MentalBreakThreshold>-0.03</MentalBreakThreshold>
+			<PsychicSensitivity>-0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/StahlhelmM42_coverSSOakA</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+        <li>3RWaffenSS_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+		 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+	 </ThingDef>
+	  	          	<!-- ==================================== StahlhelmM42 WaffenSS OakB =====================================-->
+  
+      <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_3RStahlhelmM42SSOakB</defName>
+    <label>StahlhelmM42 WaffenSS OakB (3R)</label>
+    <description>A Waffen SS helmet with a SS Oak B cover</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/StahlhelmM42_coverSSOakB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+		<costStuffCount>51</costStuffCount>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+					<Insulation_Heat>5</Insulation_Heat>
+		<Insulation_Cold>7</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+			<MentalBreakThreshold>-0.03</MentalBreakThreshold>
+			<PsychicSensitivity>-0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/StahlhelmM42_coverSSOakB</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+        <li>3RWaffenSS_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+		 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+	  </ThingDef>
+	  
+	          	<!-- ==================================== StahlhelmM42 SS Honorguard =====================================-->
+  
+      <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_3RStahlhelmM42SSHonorguard</defName>
+    <label>StahlhelmM42 SS Honorguard (3R)</label>
+    <description>Die Fahne hoch! Die Reihen fest geschlossen! SA marschiert mit ruhig festem Schritt!</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/StahlhelmM42_HonorGuard</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+			<MentalBreakThreshold>-0.07</MentalBreakThreshold>
+			<PsychicSensitivity>-0.10</PsychicSensitivity>
+					<Insulation_Heat>5</Insulation_Heat>
+		<Insulation_Cold>5</Insulation_Cold>
+		</equippedStatOffsets>
+		<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/StahlhelmM42_HonorGuard</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+        <li>3RSSHonorGuard_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+		 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+  </ThingDef>
+  
+            	<!-- ==================================== StahlhelmM42 Goggles =====================================-->
+  
+      <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_3RStahlhelmM42Gogg</defName>
+    <label>StahlhelmM42 Goggles (3R)</label>
+    <description>The Helmet belonging to a Feldgendarmie</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/StahlhelmM42_Goggles</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+			<MentalBreakThreshold>-0.03</MentalBreakThreshold>
+			<PsychicSensitivity>-0.10</PsychicSensitivity>
+		<Insulation_Heat>5</Insulation_Heat>
+		<Insulation_Cold>6</Insulation_Cold>
+		</equippedStatOffsets>
+		<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/StahlhelmM42_Goggles</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+        <li>3RMP_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+		 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+  </ThingDef>
+  
+          	<!-- ====================================M38 Fallschirmjager =====================================-->
+  
+      <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_3RM38Fal</defName>
+    <label>StahlhelmM38 Fallschirmjager (3R)</label>
+    <description>The Helmet of an Elite Fallschirmjager</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/M38Fallschirmjager</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<MaxHitPoints>122</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+		<Insulation_Heat>4</Insulation_Heat>
+		<Insulation_Cold>4</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+			<PsychicSensitivity>-0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/M38Fallschirmjager_Normal</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+        <li>3RFallschirmjager_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+		 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+  </ThingDef>
+  
+          	<!-- ====================================M38 Fallschirmjager Camo =====================================-->
+  
+      <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_3RM38FalCam</defName>
+    <label>StahlhelmM38 Fallschirmjager Camo (3R)</label>
+    <description>Grün ist unser Fallschirm!</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/M38FallschirmjagerCamo</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<MaxHitPoints>122</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+		<Insulation_Heat>4</Insulation_Heat>
+		<Insulation_Cold>4</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+			<PsychicSensitivity>-0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/M38Fallschirmjager_Camo</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+        <li>3RFallschirmjager_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+		 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+	</ThingDef>
+  
+            	<!-- ====================================M38 Fallschirmjager Winter =====================================-->
+  
+      <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_3RM38FalWinter</defName>
+    <label>StahlhelmM38 Fallschirmjager Winter (3R)</label>
+    <description>The Helmet of an Elite Fallschirmjager, painted white to fit in with snow</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/M38FallschirmjagerWinter</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<MaxHitPoints>122</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+		<Insulation_Cold>9</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+			<PsychicSensitivity>-0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/M38Fallschirmjager_Winter</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+        <li>3RWinter_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+		 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+  </ThingDef>
+  
+          	<!-- ==================================== StahlhelmM42 Winter =====================================-->
+  
+      <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_3RStahlhelmM42Winter</defName>
+    <label>StahlhelmM42 Winter (3R)</label>
+    <description>This helmet is used by both the SS and infantry forces for snowy landscapes</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/StahlhelmM42_Winter</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+		<Insulation_Cold>9</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+			<PsychicSensitivity>-0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/StahlhelmM42_Winter</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  
+      <tags>
+        <li>3RWinter_Hat</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+		 <thingCategories>
+      <li>3Reich_Hats</li>
+    </thingCategories>
+  </ThingDef>
+  
+  </Defs>

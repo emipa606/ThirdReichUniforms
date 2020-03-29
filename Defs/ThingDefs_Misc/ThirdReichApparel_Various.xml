@@ -1,0 +1,1364 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  	<!-- ==================================== Infantry =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RInfUniform</defName>
+    <label>Infantry Uniform (3R)</label>
+    <description>A beautiful infantry Uniform of the Third Reich.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/Infantry</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costList>
+      <Cloth>110</Cloth>
+    </costList>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.50</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <Insulation_Cold>10</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+	  <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+                <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Waist</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Clothing/(3R)Infantry</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			
+	  <tags>
+        <li>3R_InfantryUniform</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	<colorGenerator Class="ColorGenerator_StandardApparel" />	
+	  </ThingDef>
+	  
+	 	<!-- ==================================== Infantry Splittertarn =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RInfSplitUniform</defName>
+    <label>Infantry Splittertarn Uniform (3R)</label>
+    <description>A nice and Cozy camo hoodie used by Third Reich Infantry.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/InfantrySplittertarn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costList>
+      <Cloth>115</Cloth>
+    </costList>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.50</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <Insulation_Cold>18</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+	  <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+                <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Waist</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Clothing/(3R)InfantrySplittertarn</wornGraphicPath>
+			
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			
+	  <tags>
+        <li>3R_InfantryUniform</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	<colorGenerator Class="ColorGenerator_StandardApparel" />	
+  </ThingDef>
+  
+    	<!-- ==================================== Infantry Officer =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RInfOfficerUniform</defName>
+    <label>Infantry Officer Uniform (3R)</label>
+    <description>A Gray sleek infantry officer Uniform of the Third Reich.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/InfantryOfficer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costList>
+      <Cloth>110</Cloth>
+    </costList>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.50</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <Insulation_Cold>7</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+	  <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+	  <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+                <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Waist</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Clothing/(3R)InfantryOfficer</wornGraphicPath>
+			
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			
+	  <tags>
+        <li>3R_InfantryOfficerUniform</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	<colorGenerator Class="ColorGenerator_StandardApparel" />	  
+	  </ThingDef>
+	  
+	  	<!-- ==================================== Waffen SS =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RSSUniform</defName>
+    <label>Waffen SS Uniform (3R)</label>
+    <description>A Sleek uniform belonging to the Waffen SS.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/WaffenSS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costList>
+      <Cloth>110</Cloth>
+    </costList>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.50</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <Insulation_Cold>10</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+   	  <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+	  <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+                <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Waist</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Clothing/(3R)WaffenSS</wornGraphicPath>
+			
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			
+	  <tags>
+        <li>3R_WaffenSSUniform</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	<colorGenerator Class="ColorGenerator_StandardApparel" />	 
+	 </ThingDef>
+	  
+		  	<!-- ==================================== Waffen SS PeaDot =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RSSPeaDotUniform</defName>
+    <label>Waffen SS PeaDot Uniform (3R)</label>
+    <description>A Camoflauged Waffen SS uniform, great for concealment.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/WaffenSSPeaDot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costList>
+      <Cloth>110</Cloth>
+    </costList>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.50</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <Insulation_Cold>10</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+   	  <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+	  <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+                <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Waist</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Clothing/(3R)WaffenSSPeaDot</wornGraphicPath>
+			
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			
+	  <tags>
+        <li>3R_WaffenSSUniform</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	<colorGenerator Class="ColorGenerator_StandardApparel" />	 
+	 </ThingDef>
+	 
+	    	<!-- ==================================== Waffen SS Officer =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RSSOfficerUniform</defName>
+    <label>Waffen SS Officer Uniform (3R)</label>
+    <description>If you ever see this uniform on the field; pray it belongs to your side.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/WaffenSSOfficer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costList>
+      <Cloth>100</Cloth>
+    </costList>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.50</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <Insulation_Cold>7</Insulation_Cold>
+      <Insulation_Heat>3</Insulation_Heat>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+	  <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+	  <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+                <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Waist</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Clothing/(3R)WaffenSSOfficer</wornGraphicPath>
+			
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			
+	  <tags>
+        <li>3R_WaffenSSOfficerUniform</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	<colorGenerator Class="ColorGenerator_StandardApparel" />	
+	  </ThingDef>
+	  
+		 	<!-- ==================================== Waffen SS Smock OakA =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RSSsmockOakA</defName>
+    <label>Waffen SS Smock OakA (3R)</label>
+    <description>A nice and Cozy camoflauged smock used by the Waffen SS.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/WaffenSSOakASmock</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costList>
+      <Cloth>105</Cloth>
+    </costList>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.50</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <Insulation_Cold>18</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+      <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+	  <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+                <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Waist</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Clothing/(3R)WaffenSSOakASmock</wornGraphicPath>
+			
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			
+	  <tags>
+        <li>3R_WaffenSSUniform</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+	
+			 	<!-- ==================================== Waffen SS Smock OakB =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RSSsmockOakB</defName>
+    <label>Waffen SS Smock OakB (3R)</label>
+    <description>A nice and Cozy Autumn smock used by the Waffen SS.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/WaffenSSOakBSmock</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costList>
+      <Cloth>105</Cloth>
+    </costList>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.50</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <Insulation_Cold>18</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+      <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+	  <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+                <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Waist</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Clothing/(3R)WaffenSSOakBSmock</wornGraphicPath>
+			
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			
+	  <tags>
+        <li>3R_WaffenSSUniform</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	<colorGenerator Class="ColorGenerator_StandardApparel" />	 
+	 </ThingDef>
+	 
+	 	 	<!-- ==================================== Fallschirmjager =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RFalUniform</defName>
+    <label>Fallschirmjager Uniform (3R)</label>
+    <description>The uniform of an Elite Fallschirmjager.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/Fallschirmjager</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costList>
+      <Cloth>105</Cloth>
+    </costList>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.50</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <Insulation_Cold>15</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+	  <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+                <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Waist</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Clothing/(3R)Fallschirmjager</wornGraphicPath>
+			
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			
+	  <tags>
+        <li>3R_FallschirmjagerUniform</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	<colorGenerator Class="ColorGenerator_StandardApparel" />	
+  </ThingDef>
+	 	    	<!-- ==================================== FieldMarshal =====================================-->
+
+				
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RFieldMarshal</defName>
+    <label>FieldMarshal Uniform (3R)</label>
+    <description>The Uniform of a FieldMarshal, a symbol of true authority.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/FieldMarshal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costList>
+      <Cloth>100</Cloth>
+    </costList>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.50</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <Insulation_Cold>7</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+	  <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+	  <MentalBreakThreshold>-0.06</MentalBreakThreshold>
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+                <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Waist</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Clothing/(3R)FieldMarshal</wornGraphicPath>
+			
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			
+	  <tags>
+        <li>3R_FieldMarshalUniform</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	<colorGenerator Class="ColorGenerator_StandardApparel" />	
+	  </ThingDef>
+	  
+	  	 	    	<!-- ==================================== SS Honorguard =====================================-->
+
+				
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RSSHonorguard</defName>
+    <label>SS Honorguard Uniform (3R)</label>
+    <description>The Uniform of an honorguard, the Fuhrers Elite infantry, They are efficient and have crack morale.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/HonorGuard</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costList>
+      <Cloth>100</Cloth>
+    </costList>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.50</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <Insulation_Cold>7</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+	  <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+	  <MentalBreakThreshold>-0.07</MentalBreakThreshold>
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+                <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Waist</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Clothing/(3R)HonorGuard</wornGraphicPath>
+			
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			
+	  <tags>
+        <li>3R_SSHonorGuard</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	<colorGenerator Class="ColorGenerator_StandardApparel" />	
+	  </ThingDef>
+	 
+	 	<!-- ==================================== Winter Coat =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RNaziCoat</defName>
+    <label>Winter Reich Coat (3R)</label>
+    <description>A nice and Cozy Winter Coat used by the armed forces of the reich.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/NaziCoat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costList>
+      <Cloth>120</Cloth>
+    </costList>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.50</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <Insulation_Cold>45</Insulation_Cold>
+      <Insulation_Heat>-3</Insulation_Heat>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+	  <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+                <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Waist</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Clothing/(3R)NaziCoat</wornGraphicPath>
+			
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			
+	  <tags>
+        <li>3R_WinterUniform</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+  
+  
+  	 	<!-- ==================================== Trench Coat =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RNaziTrenchCoat</defName>
+    <label>Trench Coat (3R)</label>
+    <description>A stylish bulky coat used by the armed forces of the reich.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/TrenchCoat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costList>
+      <Cloth>130</Cloth>
+    </costList>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.50</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <Insulation_Cold>45</Insulation_Cold>
+      <Insulation_Heat>-3</Insulation_Heat>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+	  <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+                <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Waist</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Clothing/(3R)TrenchCoat</wornGraphicPath>
+			
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			
+	  <tags>
+        <li>3R_WinterUniform</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	<colorGenerator Class="ColorGenerator_StandardApparel" />	
+  </ThingDef>
+	 
+	  	 	<!-- ==================================== Zeltbahn =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RZelt</defName>
+    <label>Zeltbahn (3R)</label>
+    <description>A camoflauged poncho used by mostly infantrymen.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/Zeltbahn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costList>
+      <Cloth>70</Cloth>
+    </costList>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.50</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <Insulation_Cold>8</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+	  <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+                <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Clothing/(3R)Zeltbahn</wornGraphicPath>
+			
+			<layers>
+				<li>Middle</li>
+			</layers>
+			
+	  <tags>
+        <li>3R_Overwear</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	<colorGenerator Class="ColorGenerator_StandardApparel" />	
+  </ThingDef>
+	  
+           	<!-- ==================================== Harness Assault =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RHarnessA</defName>
+    <label>Assault harness (3R)</label>
+    <description>Carries machine gun ammo, usually used by Assault Units.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/HarnessAssault</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.20</Mass>
+	  <MaxHitPoints>220</MaxHitPoints>
+	  <WorkToMake>9000</WorkToMake>
+      <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.06</ArmorRating_Sharp>	 
+      <Insulation_Cold>-1</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+      <MoveSpeed>-0.01</MoveSpeed>
+	  <AimingDelayFactor>-0.09</AimingDelayFactor>
+	  <MedicalTendQuality>0.05</MedicalTendQuality>	  
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Belt/(3R)HarnessAssault</wornGraphicPath>
+			
+			<layers>
+				<li>Belt</li>
+			</layers>
+			
+	  <tags>
+		<li>3Reich_Harness</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+  </ThingDef>   
+  
+      	<!-- ==================================== Harness Riffleman =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RHarnessRif</defName>
+    <label>Rifleman Harness (3R)</label>
+    <description>Carries rifle ammo, used by mostly Snipers and Riflemen.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/HarnessRiffleman</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.20</Mass>
+	  <MaxHitPoints>220</MaxHitPoints>
+	  <WorkToMake>9000</WorkToMake>
+      <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.06</ArmorRating_Sharp>	 
+      <Insulation_Cold>-1</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+      <MoveSpeed>-0.02</MoveSpeed>
+	  <AimingDelayFactor>-0.08</AimingDelayFactor>
+	  <MedicalTendQuality>0.05</MedicalTendQuality>	  
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Belt/(3R)HarnessRiffleman</wornGraphicPath>
+			
+			<layers>
+				<li>Belt</li>
+			</layers>
+			
+	  <tags>
+		<li>3Reich_Harness</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+  </ThingDef>   
+  
+        	<!-- ==================================== Officer Belt =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3ROfficerbelt</defName>
+    <label>Officer Belt (3R)</label>
+    <description>A belt with a pistol holster used by officers from all Third Reich military branches.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/OfficerBelt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costStuffCount>15</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.20</Mass>
+	  <MaxHitPoints>220</MaxHitPoints>
+	  <WorkToMake>9000</WorkToMake>
+      <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.06</ArmorRating_Sharp>	 
+      <Insulation_Cold>-1</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+	  <AimingDelayFactor>-0.07</AimingDelayFactor>
+	  <MedicalTendQuality>0.05</MedicalTendQuality>	  
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Belt/(3R)OfficerBelt</wornGraphicPath>
+			
+			<layers>
+				<li>Belt</li>
+			</layers>
+			
+	  <tags>
+		<li>3Reich_OfficerBelt</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+  </ThingDef>   
+  
+          	<!-- ==================================== Feldgendararmerie Gorget =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RFeldgendararmerieGorget</defName>
+    <label> Feldgendararmerie Gorget (3R)</label>
+    <description>A belt with a pistol holster and a Gorget belonging to the Feldgendararmerie, Reich Military police, many branches MP's wear these.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/FeldgendarmerieGorget</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costStuffCount>15</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.20</Mass>
+	  <MaxHitPoints>220</MaxHitPoints>
+	  <WorkToMake>9000</WorkToMake>
+      <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.06</ArmorRating_Sharp>	 
+      <Insulation_Cold>-1</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+	  <AimingDelayFactor>-0.07</AimingDelayFactor>
+	  <MedicalTendQuality>0.05</MedicalTendQuality>	  
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Belt/(3R)FeldgendarmerieGorget</wornGraphicPath>
+			
+			<layers>
+				<li>Belt</li>
+			</layers>
+			
+	  <tags>
+		<li>3Reich_FeldgendararmerieGorget</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+  </ThingDef>   
+  
+         	<!-- ==================================== Fallschirmjager Harness =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RHarnessFal</defName>
+    <label>Fallschirmjager Harness (3R)</label>
+    <description>A Bandoiler used by Fallschirmjagers for storing ammo and being quick on their feet.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/HarnessFallschirmjager</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costStuffCount>15</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.20</Mass>
+	  <MaxHitPoints>220</MaxHitPoints>
+	  <WorkToMake>9000</WorkToMake>
+      <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.06</ArmorRating_Sharp>	 
+      <Insulation_Cold>-1</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+	  <AimingDelayFactor>-0.07</AimingDelayFactor>
+	  <MedicalTendQuality>0.05</MedicalTendQuality>	  
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Belt/(3R)HarnessFallschirmjager</wornGraphicPath>
+			
+			<layers>
+				<li>Belt</li>
+			</layers>
+			
+	  <tags>
+		<li>3Reich_FallschirmjagerHarness</li>
+      </tags>
+	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>	
+</ThingDef>   
+
+  </Defs>

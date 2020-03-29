@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+		  <!-- Clothing Categories -->
+
+	  <ThingCategoryDef>
+	    <defName>ThirdReichCats</defName>
+	    <label>Third Reich Military Kit</label>
+	    <parent>Apparel</parent>
+	  </ThingCategoryDef>
+		  
+		  		  		  <!-- PMC submenu -->
+		  
+		  		  		  <ThingCategoryDef>
+		    <defName>3Reich_Clothing</defName>
+		    <label>3rd Reich Military Clothing</label>
+		    <parent>ThirdReichCats</parent>
+		  </ThingCategoryDef>
+
+		  <ThingCategoryDef>
+		    <defName>3Reich_Armor</defName>
+		    <label>3rd Reich Military Armor</label>
+		    <parent>ThirdReichCats</parent>
+		  </ThingCategoryDef>
+		  
+		  <ThingCategoryDef>
+		    <defName>3Reich_PowerArmor</defName>
+		    <label>3rd Reich Military PowerArmor</label>
+		    <parent>ThirdReichCats</parent>
+		  </ThingCategoryDef>
+
+
+<!-- Hat main -->
+
+
+      <ThingCategoryDef>
+	    <defName>3Reich_Hats</defName>
+	    <label>3rd Reich Military Headgear</label>
+	    <parent>Headgear</parent>
+	  </ThingCategoryDef>
+	  
+ 
+</Defs>
+
+
